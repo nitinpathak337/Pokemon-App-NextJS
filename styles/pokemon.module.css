@@ -1,0 +1,77 @@
+.listContainer{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-start;
+    padding-left: 0px;
+}
+
+.listItem{
+    margin:10px;
+    padding:6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0.5px solid lightgray;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.types{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+.weaknesses{
+    background-color: coral;
+    color: antiquewhite;
+}
+
+.resistant{
+    background-color: lightseagreen;
+    color: azure;
+}
+
+.pokemonImage{
+    width:40%;
+    margin-right: 4%;
+}
+
+.popupContainer{
+    background-color: aliceblue;
+    border: 0.5px solid gray;
+    padding: 12px;
+    border-radius: 8px;
+    
+    text-align: center;
+    
+   
+}
+
+.popupImage{
+    width:33%;
+}
+
+.evolList{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.popupTypes{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.popupTypesItem{
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: darkturquoise;
+    color:whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+}
